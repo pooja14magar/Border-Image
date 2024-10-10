@@ -1,0 +1,39 @@
+
+#main-box{
+display: flex;
+align-items: center;
+justify-content: space-between;
+margin: 50px;
+}
+
+
+
+#box {
+    width: 350px;
+    height: 350px;
+    border: 30px solid black;
+    text-align: justify;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: aquamarine;
+border-image-slice: 42 42 42 42;
+border-image-width: 42px 42px 42px 42px;
+border-image-outset: 0px 0px 0px 0px;
+border-image-repeat: round round;
+border-image-source: url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-6.svg");
+border-style: solid;
+
+}
+#box1{
+    
+    width: 350px;
+    height: 350px;
+    border: 30px solid black;
+    text-align: justify;
+    padding: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    background-color: cadetblue;
+    border-image: linear-gradient(red,yellow) 25;
+}
